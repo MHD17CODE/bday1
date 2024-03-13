@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('bg2.jpg'); /* Background image */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Align the elements horizontally */
+  align-items: center; /* Align the elements vertically */
+  height: 100vh;
+}
+
+.box {
+  background-color: #DDAA99; /* White background for the box */
+  padding: 20px; /* Padding for the content inside the box */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center-align the text inside the box */
+  margin: 0 20px; /* Add margin between the box and the pictures */
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange items in a row */
+  justify-content: center; /* Center-align items horizontally */
+}
+
+.left-pictures, .right-pictures {
+  display: flex;
+  flex-direction: column; /* Arrange the pictures vertically */
+}
+
+.left-pictures img, .right-pictures img {
+  width: 150px; /* Adjust the width of the pictures as needed */
+  margin-bottom: 10px; /* Margin between each picture */
+  margin-right: 10px; /* Add margin between pictures */
+}
+
+p {
+    font-size: 25px; /* Increase font size for paragraphs */
+  }
